@@ -15,7 +15,7 @@ export default function BannerArea() {
             <button className='w-fit h-fit pt-3 pb-3 pl-6 pr-6 text-white bg-blue-500'>Explore Now</button>
         </div>
         <div className='flex items-center justify-center w-[50%] pt-8'>
-            <Image src={doctorImage} width={450} height={600} className='rounded-md'/>
+            <img src={doctorImage}  className='rounded-md w-[450px] h-[500px]'/>
         </div>
 
     </div>
