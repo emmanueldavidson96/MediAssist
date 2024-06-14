@@ -1,12 +1,12 @@
-import { HeartPulse} from "lucide-react"
-import { FaTooth } from "react-icons/fa";
+import { RiSurgicalMaskFill } from "react-icons/ri";
+import { FaTooth, FaEye  } from "react-icons/fa";
 import { IoEar } from "react-icons/io5";
-import { FaUserDoctor } from "react-icons/fa6";
+import { FaUserDoctor, FaHeartPulse } from "react-icons/fa6";
 
 export const categorySearchFields = [
     {
         id: 1,
-        icon: HeartPulse,
+        icon: FaHeartPulse,
         text: "Cardiologist"
     },
     {
@@ -23,5 +23,15 @@ export const categorySearchFields = [
         id: 4,
         icon: FaUserDoctor,
         text: "Check Up"
+    },
+    {
+        id:5,
+        icon: RiSurgicalMaskFill,
+        text: "Surgeon"
+    },
+    {
+        id:6,
+        icon: FaEye,
+        text: "Eye Specialist"
     }
 ] 
