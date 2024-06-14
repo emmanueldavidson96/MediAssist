@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-// import doctorImage from "../assets/a3618752832d002a51cb8729895a364c.jpg";
+import doctorImage from "../../public/assets/pngimg.com - doctor_PNG15988.png"
 
 export default function BannerArea() {
   return (
@@ -15,9 +15,8 @@ export default function BannerArea() {
             <button className='w-fit h-fit pt-3 pb-3 pl-6 pr-6 text-white bg-blue-500 rounded-md mt-4'>Explore Now</button>
         </div>
         <div className='flex items-center justify-center w-[50%] pt-8'>
-            <img src="../assets/a3618752832d002a51cb8729895a364c.jpg"  className='rounded-md w-[550px] h-[500px]'/>
+            <Image src={doctorImage} width={500} height={300} className='rounded-md' alt=''/>
         </div>
-
     </div>
   )
 }
