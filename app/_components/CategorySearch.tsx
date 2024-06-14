@@ -7,6 +7,12 @@ export default function CategorySearch() {
         <h2 className='font-bold text-4xl tracking-wide '>Search A <span className='text-blue-500'>Doctor</span></h2>
         <h2 className='text-gray-600 text-lg'>Search for a Doctor and Book Appointments and Experiences in one click</h2>
         <InputField/>
+        <div className='w-full h-fit flex '>
+            {
+                
+            }
+
+        </div>
     </div>
   )
 }
