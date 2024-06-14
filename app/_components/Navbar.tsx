@@ -21,7 +21,7 @@ export default function Navbar() {
         }
     ]
   return (
-    <nav className='w-full h-[80px] flex items-center justify-between shadow-sm p-4'>
+    <nav className='w-[90%] m-auto h-[80px] flex items-center justify-between shadow-sm p-4'>
         <div className='w-fit h-fit flex gap-16 items-center'>
             <h1 className='text-3xl font-black text-slate-400'>Medi<span className='text-blue-500'>Assist</span></h1>
             <div className='md:flex gap-6 hidden '>
