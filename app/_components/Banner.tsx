@@ -20,9 +20,7 @@ export default function Banner() {
                 <h2 className="text-4xl font-extrabold sm:text-4xl">Find, <span className='text-blue-500'>Interact</span> & Book Appointments with Your <span className='text-blue-500'>Doctor</span> in a <span className='text-blue-500'>specialized experience.</span></h2>
 
                 <p className="mt-4 text-gray-600 text-sm leading-6">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-                    eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-                    quidem quam repellat.
+                    An AI-Powered Symptom Checker and Diagnosis Assistant
                 </p>
 
                 <a
