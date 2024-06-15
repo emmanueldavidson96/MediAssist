@@ -2,6 +2,7 @@ import React from 'react'
 import InputFieldUsernameFloatingLabel from '../_components/_ui/InputFieldUsernameFloatingLabel'
 import InputFieldPasswordFloatingLabel from '../_components/_ui/InputFieldPasswordFloatingLabel'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function Login() {
   return (
@@ -10,9 +11,11 @@ export default function Login() {
             <h1 className='text-2xl font-semibold '>Log In</h1>
             <InputFieldUsernameFloatingLabel />
             <InputFieldPasswordFloatingLabel />
-            <Button className='w-full bg-blue-500 hover:bg-blue-700'>
-                Log In
-            </Button>            
+            <Link href="/profile" className='w-full'>
+                <Button className='w-full bg-blue-500 hover:bg-blue-700'>
+                    Log In
+                </Button>            
+            </Link>
         </form>
     </div>
   )

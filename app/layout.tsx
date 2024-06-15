@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <div className="md:px-20">
+        <div className="">
           <Navbar/>
           {children}
         </div>
