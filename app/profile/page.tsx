@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import imagePatient from "../../public/assets/1681302723810.jpeg";
-
+import { BiPlusMedical } from 'react-icons/bi';
 export default function Profile() {
   return (
     <div className='w-[90%] h-fit flex mt-4 m-auto mb-8'>
@@ -50,7 +50,13 @@ export default function Profile() {
             </div>
             <div className='w-[95%] h-[600px] flex justify-between'>
                 <div className='bg-blue-100 h-full w-[45%] rounded-3xl shadow-md p-8 flex flex-col gap-3'>
-                    <h1 className='text-xl border-l-4 border-l-blue-500 pl-2 font-bold'>Medical History</h1>
+                    <div className='w-full h-fit flex justify-between'>
+                        <h1 className='text-xl border-l-4 border-l-blue-500 pl-2 font-bold'>Medical History</h1>
+                        <div className='flex items-center gap-1'>
+                            <p className='text-xs font-semibold text-blue-400'>Upload Medical History</p>
+                            <BiPlusMedical color='#438DEE' cursor={"pointer"}/>
+                        </div>
+                    </div>
                     
                     
 
