@@ -20,6 +20,11 @@ export default function Navbar() {
             id:3,
             name: "Contact Us",
             path: "/"
+        },
+        {
+            id:4,
+            name: "Ask MediAI",
+            path: "/"
         }
     ]
 
