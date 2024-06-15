@@ -24,12 +24,13 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 import { toast } from "@/components/ui/use-toast"
-
+import MedicationTypeFloatingLabel from "./MedicationTypeFloatingLabel"
 const FormSchema = z.object({
   dob: z.date({
     required_error: "A date of birth is required.",
   }),
 })
+
 
 export function CalendarForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
@@ -94,6 +95,7 @@ export function CalendarForm() {
             </FormItem>
           )}
         />
+        <MedicationTypeFloatingLabel />
         <Button className='w-full bg-blue-500 hover:bg-blue-700'>
             Upload Medical History
         </Button>

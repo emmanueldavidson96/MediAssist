@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function DateOfAdmissionInputformFloatingLabel() {
+export default function MedicationTypeFloatingLabel() {
   return (
     <label
         htmlFor="Date of Admission"
@@ -16,7 +16,7 @@ export default function DateOfAdmissionInputformFloatingLabel() {
         <span
             className="pointer-events-none absolute start-2.5 top-0 -translate-y-1/2 bg-white p-0.5 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-0 peer-focus:text-xs"
         >
-            Email
+            Medication Type
         </span>
     </label>
   )
