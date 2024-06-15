@@ -37,8 +37,12 @@ export default function Navbar() {
             </div>
         </div>
         <div className='w-fit h-fit flex gap-2'>
-            <Button variant="outline" className='hover:bg-blue-500 hover:text-white border-blue-500 '>Log In</Button>
-            <Button className='bg-blue-500 hover:bg-blue-700'>Sign Up</Button>
+            <Link href="/login">
+                <Button variant="outline" className='hover:bg-blue-500 hover:text-white border-blue-500 '>Log In</Button>
+            </Link>
+            <Link href="/signup">
+                <Button className='bg-blue-500 hover:bg-blue-700'>Sign Up</Button>
+            </Link>
         </div>
         
     </nav>
