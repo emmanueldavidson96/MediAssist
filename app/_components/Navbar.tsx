@@ -23,7 +23,17 @@ export default function Navbar() {
         },
         {
             id:4,
-            name: "Ask MediAI",
+            name: "Chat With MediAI",
+            path: "/"
+        },
+        {
+            id: 5,
+            name: "Make an Appointment",
+            path:"/"
+        },
+        {
+            id: 6,
+            name: "Get Medication",
             path: "/"
         }
     ]
