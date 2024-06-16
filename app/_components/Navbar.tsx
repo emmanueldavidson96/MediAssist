@@ -35,6 +35,11 @@ export default function Navbar() {
             id: 6,
             name: "Get Medication",
             path: "/"
+        },
+        {
+            id:7,
+            name: "Get Resources",
+            path:"/"
         }
     ]
 
