@@ -101,7 +101,7 @@ export function CalendarForm() {
         <DurationFloatingLabel />
         <Dosage/>
         <Button className='w-full bg-blue-500 hover:bg-blue-700'>
-            Upload History
+            Upload History To Check
         </Button>
       </form>
     </Form>
