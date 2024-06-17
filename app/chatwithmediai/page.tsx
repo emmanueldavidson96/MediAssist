@@ -17,7 +17,6 @@ export default function ChatWithMediAi() {
           <IoSend size={50} color="blue" cursor={"pointer"}/>
         </div>
       </div>
-
     </div>
   )
 }
