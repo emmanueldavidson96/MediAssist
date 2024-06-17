@@ -24,7 +24,7 @@ export default function Navbar() {
         {
             id:4,
             name: "Chat With MediAI",
-            path: "/"
+            path: "/chatwithmediai"
         },
         {
             id: 5,

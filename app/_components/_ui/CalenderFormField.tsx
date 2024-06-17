@@ -5,7 +5,6 @@ import { format } from "date-fns"
 import { CalendarIcon } from "lucide-react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
-
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Calendar } from "@/components/ui/calendar"
@@ -22,11 +21,12 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@/components/ui/popover";
 import { toast } from "@/components/ui/use-toast"
 import MedicationTypeFloatingLabel from "./MedicationTypeFloatingLabel"
 import DurationFloatingLabel from "./DurationFloatingLabel"
-import Dosage from "./DosageFloatingLabel"
+import Dosage from "./DosageFloatingLabel";
+
 const FormSchema = z.object({
   dob: z.date({
     required_error: "A date of birth is required.",
