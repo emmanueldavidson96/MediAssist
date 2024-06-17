@@ -12,8 +12,11 @@ export default function ChatWithMediAi() {
       </div>
       <div className="w-[80%] h-full bg-blue-100 flex flex-col items-center p-6">
         <h1 className="text-gray-400 font-black text-4xl">MEDI<span className='text-blue-600'>ASSIST</span></h1>
+        <div className=''>
+            <input type="text" className='w-[65%] p-4 bg-blue-200 border-white border rounded-lg text-blue-800' placeholder='How to Get Malaria treatments?' />
+        </div>
         <div className="flex w-full h-fit mt-[40%] items-center gap-4 shadow-lg">
-          <input type="text" className="w-[85%] p-6 bg-blue-200 border-white border rounded-lg text-blue-600" />
+          <input type="text" className="w-[85%] p-4 bg-blue-200 border-white border rounded-lg text-blue-800" />
           <IoSend size={50} color="blue" cursor={"pointer"} className='shadow-lg'/>
         </div>
       </div>
